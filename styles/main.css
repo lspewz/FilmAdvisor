@@ -1,3 +1,5 @@
 body {
-    background-image: url(src/background.jpeg);
+    background: url(../src/bg.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
 }
