@@ -1,5 +1,42 @@
-body {
+main {
     background: url(../src/bg.jpg);
-    background-position: 100% 100%;
-    background-size: cover;
+} 
+
+.container__btn {
+	padding: 375px 0;
+	text-align: center;
+}
+	.container__btn button {
+	    margin: 0 auto;
+	    border: none;
+	    padding: 40px 100px;
+	    border-radius: 50px;
+	    background: linear-gradient(45deg, #74009a, #6021f8);
+	    font: normal 20px Arial;
+	    color: #fff;
+	    box-shadow: 0 0 20px 2px #400c67c7;
+	}
+	.container__btn button:hover {
+		background: linear-gradient(45deg, #6021f8, #74009a);
+	}
+	.container__btn button:focus {
+		outline: none;
+	}
+
+.footer {
+	text-align: center;
+	color: #fff;
+	padding: 20px 0;
+}
+
+
+
+@media screen and (max-width: 576px) {
+	.container__btn {
+	    padding: 185px 0;
+	}
+	.container__btn button {
+		padding: 20px 30px;
+		font-size: 16px;
+	}
 }
